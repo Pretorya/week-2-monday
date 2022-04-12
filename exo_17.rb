@@ -3,7 +3,7 @@ etage = gets.chomp.to_i
 
 while etage > 25 || etage < 1
     puts "Réessayez ! La pyramide ne doit pas excéder 25 étages !"
-    user_floor = gets.chomp.to_i
+    etage = gets.chomp.to_i
 end
 
 

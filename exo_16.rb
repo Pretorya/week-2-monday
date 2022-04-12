@@ -7,8 +7,8 @@ space = etage - 1
 hash = 1
 
 while etage > 25 || etage < 1
-    puts "Réessayez ! La pyramide ne doit pas excéder 25 étages !"
-    user_floor = gets.chomp.to_i
+    puts "Réessayez ! 25 étages maximum, 1 etage minimun !"
+    etage = gets.chomp.to_i
 end
 
 etage.times do
